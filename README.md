@@ -5,6 +5,7 @@
 - You need to setup notify-send command
 - You also need some notification Manager like dunst
 - If you have all of this you are good to go
+- Start i, when you log in with your user (I use Hyprland, so I use ```exec-once``` in my config)
 # Configuring
 - You can use toml (I am lazy, so only this is implemented)
 - The path is $XDG_CONFIG_HOME/Ass/config.toml
