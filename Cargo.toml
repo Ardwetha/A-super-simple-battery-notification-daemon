@@ -1,0 +1,10 @@
+[package]
+name = "Asband"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = "0.14.0"
+dirs = "5.0.1"
+serde = "1.0.204"
+
