@@ -1,7 +1,12 @@
+# Example of customizing binaries in Cargo.toml.
 [package]
 name = "Asband"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+
+[[bin]]
+name = "Asband"
+path = "src/main.rs"
 
 [dependencies]
 config = "0.14.0"
